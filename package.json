@@ -1,13 +1,13 @@
 {
   "name": "interval",
-  "description": "A javascript module for manipulating, parsing and formatting time intervals.",
+  "description": "manipulating, parsing and formatting time intervals.",
   "keywords": [
     "interval", "timespan", "moment", "duration"
   ],
   "version": "0.0.3",
   "repository": {
     "type": "git", 
-    "url": ""
+    "url": "git://github.com/fixedset/node-interval.git"
   },
   "author": "J. Jordan <jordan@styosis.com>",
   "main": "lib/interval.js",
