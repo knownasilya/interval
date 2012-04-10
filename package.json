@@ -7,7 +7,7 @@
   "version": "0.0.3",
   "repository": {
     "type": "git", 
-    "url": "git://github.com/fixedset/node-interval.git"
+    "url": "git://github.com/fixedset/interval.git"
   },
   "author": "J. Jordan <jordan@styosis.com>",
   "main": "lib/interval.js",
