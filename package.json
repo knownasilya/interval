@@ -12,7 +12,7 @@
   "author": "J. Jordan <jordan@styosis.com>",
   "main": "lib/interval.js",
   "scripts": {
-    "test": "(mocha --reporter spec) || echo 'test fail'"
+    "test": "mocha --reporter spec"
   },
   "dependencies": {
   },
