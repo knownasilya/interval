@@ -1,3 +1,13 @@
 # interval
 
-A javascript module for manipulating, parsing and formatting time intervals.
+A JavaScript library for manipulating time intervals.
+
+# install
+
+```
+npm install interval
+```
+
+# usage
+
+
