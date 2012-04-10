@@ -1,6 +1,6 @@
 {
   "name": "interval",
-  "description": "manipulating, parsing and formatting time intervals.",
+  "description": "A JavaScript library for manipulating time intervals.",
   "keywords": [
     "interval", "timespan", "moment", "duration"
   ],
