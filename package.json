@@ -2,11 +2,14 @@
   "name": "interval",
   "description": "A JavaScript library for manipulating time intervals.",
   "keywords": [
-    "interval", "timespan", "moment", "duration"
+    "interval",
+    "timespan",
+    "moment",
+    "duration"
   ],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git://github.com/fixedset/interval.git"
   },
   "author": "J. Jordan <jordan@styosis.com>",
@@ -14,8 +17,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*",
     "expect.js": "*"
