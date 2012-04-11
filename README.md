@@ -19,7 +19,7 @@ setTimeout(foo, interval({ hours: 2 });  // timeout is 1000*60*60*2
 ```
 The supported units of time are 'days', 'hours', 'minutes', 'seconds'
 and 'milliseconds'.  You can use as many or as few units as you want
-and they are applied cumulatively. These names were chosen to be consistant
+and they are applied cumulatively. These names were chosen to be consistent
 with the conventions of [moment.js](http://momentjs.com), as seen in the 
 the add and subtract methods `moment().add({days: 1})`
 
