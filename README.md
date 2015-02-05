@@ -23,5 +23,5 @@ The supported units of time are 'days', 'hours', 'minutes', 'seconds'
 and 'milliseconds'.  You can use as many or as few units as you want
 and they are applied cumulatively. 
 
-[travis-badge]: https://travis-ci.org/fixedset/interval.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/fixedset/interval
+[travis-badge]: https://travis-ci.org/knownasilya/interval.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/knownasilya/interval
