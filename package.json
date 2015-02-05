@@ -15,7 +15,7 @@
   "version": "0.0.8",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fixedset/interval.git"
+    "url": "git://github.com/knownasilya/interval.git"
   },
   "directories": {
     "lib": "./lib",
@@ -26,12 +26,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
   "devDependencies": {
     "mocha": "*",
     "expect.js": "*"
   },
-  "optionalDependencies": {},
   "engines": {
     "node": ">= 0.4.0",
     "npm": ">= 1"
