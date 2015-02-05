@@ -1,5 +1,6 @@
 {
   "name": "interval",
+  "version": "0.0.9",
   "description": "Converts common units of time to milliseconds",
   "keywords": [
     "interval",
@@ -12,7 +13,6 @@
     "setTimeout",
     "setInterval"
   ],
-  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "git://github.com/knownasilya/interval.git"
