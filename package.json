@@ -34,6 +34,6 @@
   "optionalDependencies": {},
   "engines": {
     "node": ">= 0.4.0",
-    "npm": "1"
+    "npm": ">= 1"
   }
 }
