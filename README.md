@@ -23,5 +23,12 @@ The supported units of time are 'days', 'hours', 'minutes', 'seconds'
 and 'milliseconds'.  You can use as many or as few units as you want
 and they are applied cumulatively. 
 
+##### `interval(object)`
+##### `interval.fromMilliseconds(number)`
+##### `interval.normalize(object)`
+##### `interval.stringify(number|object)`
+##### `interval.add(date|object, object)`
+##### `interval.subtract(date|object, object)`
+
 [travis-badge]: https://travis-ci.org/knownasilya/interval.svg?branch=master
 [travis-badge-url]: https://travis-ci.org/knownasilya/interval
