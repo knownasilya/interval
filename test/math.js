@@ -1,15 +1,20 @@
-var expect = require('expect.js');
+'use strict';
+
+var test = require('tape');
 var math = require('../lib/math');
 
-describe('math', function () {
-
-  it('should divide evenly', function () {
+test('math', function (t) {
+  t.test('should divide evenly', function (n) {
     var result = math.integerDivision(100, 10);
-    expect(result).to.eql({ quotient: 10, remainder: 0});
+
+    n.same(result, { quotient: 10, remainder: 0 });
+    n.end();
   });
-  
-  it('should have remainder', function () {
+
+  t.test('should have remainder', function (n) {
     var result = math.integerDivision(15, 10);
-    expect(result).to.eql({ quotient: 1, remainder: 5});
+
+    n.same(result, { quotient: 1, remainder: 5 });
+    n.end();
   });
 });

@@ -2,6 +2,11 @@
   "name": "interval",
   "version": "0.0.9",
   "description": "Converts common units of time to milliseconds",
+  "author": "J. Jordan <jordan@styosis.com>",
+  "main": "./lib/interval.js",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
   "keywords": [
     "interval",
     "timespan",
@@ -21,14 +26,9 @@
     "lib": "./lib",
     "test": "./test"
   },
-  "author": "J. Jordan <jordan@styosis.com>",
-  "main": "./lib/interval.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "devDependencies": {
-    "mocha": "*",
-    "expect.js": "*"
+    "tap-spec": "^2.2.0",
+    "tape": "^3.5.0"
   },
   "engines": {
     "node": ">= 0.4.0",
