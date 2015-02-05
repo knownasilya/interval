@@ -1,4 +1,4 @@
-# interval
+# interval [![Build Status][travis-badge]][travis-badge-url]
 
 A small library for creating and using time intervals using common units
 of time instead.
@@ -23,3 +23,6 @@ var deadline = interval.add(new Date() {days: 10});
 The supported units of time are 'days', 'hours', 'minutes', 'seconds'
 and 'milliseconds'.  You can use as many or as few units as you want
 and they are applied cumulatively. 
+
+[travis-badge]: https://travis-ci.org/fixedset/interval.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/fixedset/interval
