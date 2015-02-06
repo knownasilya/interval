@@ -1,7 +1,9 @@
-# interval [![Build Status][travis-badge]][travis-badge-url]
+# interval
 
 A small library for creating and using time intervals using common units
 of time instead.
+
+[![Build Status][travis-badge]][travis-badge-url]
 
 ## install
 
