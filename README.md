@@ -4,7 +4,8 @@ A small library for creating and using time intervals using common units
 of time instead.
 
 [![Build Status][travis-badge]][travis-badge-url]
-[![devDependency Status][david-dev-badge]][david-dev-badge-url]
+[![devDependency Status][david-dev-badge]][david-dev-badge-url]  
+[![NPM][npm-badge]][npm-badge-url]
 
 ## install
 
@@ -37,3 +38,5 @@ and they are applied cumulatively.
 [travis-badge-url]: https://travis-ci.org/knownasilya/interval
 [david-dev-badge]: https://david-dm.org/knownasilya/interval/dev-status.svg
 [david-dev-badge-url]: https://david-dm.org/knownasilya/interval#info=devDependencies
+[npm-badge]: https://nodei.co/npm/interval.png?downloads=true&stars=true
+[npm-badge-url]: https://nodei.co/npm/interval/
