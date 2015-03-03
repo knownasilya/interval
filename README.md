@@ -9,8 +9,7 @@ of time instead.
 
 ## install
 
-`npm install interval` or add `interval` as a dependency in your 
-package.json file and `npm install`
+`npm install interval --save`
 
 ## usage
 
