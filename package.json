@@ -5,7 +5,8 @@
   "author": "J. Jordan <jordan@styosis.com>",
   "main": "./lib/interval.js",
   "scripts": {
-    "test": "node test | tap-spec"
+    "test": "node test | tap-spec",
+    "test-coverage": "istanbul cover tests/index.js --report lcovonly | tap-spec"
   },
   "keywords": [
     "interval",
@@ -27,6 +28,7 @@
     "test": "./test"
   },
   "devDependencies": {
+    "istanbul": "^0.3.13",
     "tap-spec": "^3.0.0",
     "tape": "^4.0.0"
   },

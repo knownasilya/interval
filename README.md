@@ -3,9 +3,10 @@
 A small library for creating and using time intervals using common units
 of time instead.
 
+[![NPM][npm-badge]][npm-badge-url]  
 [![Build Status][travis-badge]][travis-badge-url]
-[![devDependency Status][david-dev-badge]][david-dev-badge-url]  
-[![NPM][npm-badge]][npm-badge-url]
+[![devDependency Status][david-dev-badge]][david-dev-badge-url]
+[![Coverage Status][coveralls-badge]][coveralls-badge-url]
 
 ## install
 
@@ -37,5 +38,7 @@ and they are applied cumulatively.
 [travis-badge-url]: https://travis-ci.org/knownasilya/interval
 [david-dev-badge]: https://david-dm.org/knownasilya/interval/dev-status.svg
 [david-dev-badge-url]: https://david-dm.org/knownasilya/interval#info=devDependencies
+[coveralls-badge]: https://coveralls.io/repos/knownasilya/interval/badge.svg?branch=master
+[coveralls-badge-url]: https://coveralls.io/r/knownasilya/interval?branch=master
 [npm-badge]: https://nodei.co/npm/interval.png?downloads=true&stars=true
 [npm-badge-url]: https://nodei.co/npm/interval/
