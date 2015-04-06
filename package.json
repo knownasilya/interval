@@ -6,7 +6,7 @@
   "main": "./lib/interval.js",
   "scripts": {
     "test": "node test | tap-spec",
-    "test-coverage": "istanbul cover tests/index.js --report lcovonly | tap-spec"
+    "test-coverage": "istanbul cover test/index.js --report lcovonly | tap-spec"
   },
   "keywords": [
     "interval",
