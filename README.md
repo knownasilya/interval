@@ -3,7 +3,7 @@
 A small library for creating and using time intervals using common units
 of time instead.
 
-[![NPM][npm-badge]][npm-badge-url]  
+[![NPM][npm-badge]][npm-badge-url]
 [![Build Status][travis-badge]][travis-badge-url]
 [![devDependency Status][david-dev-badge]][david-dev-badge-url]
 [![Coverage Status][coveralls-badge]][coveralls-badge-url]
@@ -23,9 +23,18 @@ setTimeout(foo, interval({ hours: 2 }));
 // the date 10 days from today
 var deadline = interval.add(new Date(), { days: 10 });
 ```
-The supported units of time are 'days', 'hours', 'minutes', 'seconds'
-and 'milliseconds'.  You can use as many or as few units as you want
-and they are applied cumulatively. 
+
+The supported units of time are:
+
+* 'weeks'
+* 'days'
+* 'hours'
+* 'minutes'
+* 'seconds'
+* 'milliseconds'
+
+You can use as many or as few units as you want
+and they are applied cumulatively.
 
 ##### `interval(object)`
 ##### `interval.fromMilliseconds(number)`
