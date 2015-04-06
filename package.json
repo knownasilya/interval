@@ -1,6 +1,6 @@
 {
   "name": "interval",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Converts common units of time to milliseconds",
   "author": "J. Jordan <jordan@styosis.com>",
   "main": "./lib/interval.js",
