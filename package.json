@@ -27,8 +27,8 @@
     "test": "./test"
   },
   "devDependencies": {
-    "tap-spec": "^2.2.0",
-    "tape": "^3.5.0"
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
   },
   "engines": {
     "node": ">= 0.4.0",
