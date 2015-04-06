@@ -105,6 +105,13 @@ test('interval', function (t) {
     n.equal(actual, interval({ hours: 5, days: 7 }));
     n.end();
   });
+
+  t.test('No argument', function (n) {
+    var result = interval();
+
+    n.ok(isNaN(result), 'Falsy or missing arguments return NaN');
+    n.end();
+  });
 });
 
 // zero undefined properties
