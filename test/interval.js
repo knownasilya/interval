@@ -4,6 +4,11 @@ var test = require('tape');
 var interval = require('../');
 
 test('interval', function (t) {
+  t.test('should convert weeks property to milliseconds', function (n) {
+    n.equal(interval({ weeks: 3 }), 3 * 7 * 24 * 60 * 60 * 1000);
+    n.end();
+  });
+
   t.test('should convert days property to milliseconds', function (n) {
     n.equal(interval({ days: 4 }), 4 * 24 * 60 * 60 * 1000);
     n.end();
