@@ -3,7 +3,7 @@
 A small library for creating and using time intervals using common units
 of time instead.
 
-[![NPM][npm-badge]][npm-badge-url]
+[![NPM][npm-badge]][npm-badge-url]  
 [![Build Status][travis-badge]][travis-badge-url]
 [![devDependency Status][david-dev-badge]][david-dev-badge-url]
 [![Coverage Status][coveralls-badge]][coveralls-badge-url]
